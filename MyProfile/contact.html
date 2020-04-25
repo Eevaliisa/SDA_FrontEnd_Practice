@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+<header>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href="index.html">Back to My Profile</a>
+        <br/>
+        <a href="MyHobbies.html">See My Hobbies</a>
+        <br/>
+        <a href="MyRecentAccomplishment.html"> See My Accomplishments</a>
+        <br/>
+        <a href="MyVideos.html">Search For My Videos</a>
+        <br/>
+    </nav>
+</header>
+    <section>
+        <br/>
+        <form>
+            <h3>Please fill in this form to contact me</h3>
+            <div>
+                <span>Enter your name: </span>
+                <input id="nameInput" placeholder="Example: Peppa Pig" name="name"/>
+            </div>
+            <br/>
+            <div>
+                <span>Enter your favourite color: </span>
+                <input id="colorInput" name="color"/>
+            </div>
+            <br/>
+            <div>
+                <span>Enter your e-mail address: </span>
+                <input id="emailInput" name="email"/>
+            </div>
+            <br/>
+            <div id="messageTextAreaContaine">
+                <span>Enter your message: </span>
+                <textarea id="inquiryTextArea" name="message">
+                </textarea>
+            </div>
+            <br/>
+            <div id="replyOptionContainer">
+                <span>How are you? </span>
+                <select>
+                    <option>I feel like a superhero!</option>
+                    <option>Ok!</option>
+                    <option>Not so good...</option>
+                    <option>I wish I didn't exist</option>
+                    <option>I prefer not to answer</option>
+                </select>
+            </div>
+            <br/>
+            <div id="weatherOptionContainer">
+                <span>How's the weather? </span>
+                <div>
+                    <input type="radio" id="sunny" name="weatherToday"/>
+                    <label for="sunny">Sunny</label>
+                </div>
+                <div>
+                    <input type="radio" id="cloudy" name="weatherToday"/>
+                    <label for="cloudy">Cloudy</label>
+                </div>
+                <div>
+                    <input type="radio" id="rainy" name="weatherToday"/>
+                    <label for="rainy">Rainy</label>
+                </div>
+                <div>
+                    <input type="radio" id="dontKnow" name="weatherToday"/>
+                    <label for="dontKnow">I don't know</label>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <!-- another way for button: <input type="submit" value="My special button"> -->
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+</body>
+</html>
+
+<!-- Just a comment to myself - these are container tags: -->
+<section>
+    <div>
+        <p>
+            <span>
+
+            </span>
+        </p>
+    </div>
+</section>
+<!-- these were the container tags -->
